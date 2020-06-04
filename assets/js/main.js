@@ -47,8 +47,8 @@
           $(this).closest("li").addClass("active");
         }
 
-        if ($("body").hasClass("mobile-nav-active")) {
-          $("body").removeClass("mobile-nav-active");
+        if ($(".js-append-target").hasClass("mobile-nav-active")) {
+          $(".js-append-target").removeClass("mobile-nav-active");
           $(".mobile-nav-toggle i").toggleClass(
             "icofont-navigation-menu icofont-close"
           );
@@ -64,14 +64,14 @@
     var $mobile_nav = $(".nav-menu").clone().prop({
       class: "mobile-nav d-lg-none",
     });
-    $("body").append($mobile_nav);
-    $("body").prepend(
+    $(".js-append-target").append($mobile_nav);
+    $(".js-append-target").prepend(
       '<button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>'
     );
-    $("body").append('<div class="mobile-nav-overly"></div>');
+    $(".js-append-target").append('<div class="mobile-nav-overly"></div>');
 
     $(document).on("click", ".mobile-nav-toggle", function (e) {
-      $("body").toggleClass("mobile-nav-active");
+      $(".js-append-target").toggleClass("mobile-nav-active");
       $(".mobile-nav-toggle i").toggleClass(
         "icofont-navigation-menu icofont-close"
       );
@@ -87,8 +87,8 @@
     $(document).click(function (e) {
       var container = $(".mobile-nav, .mobile-nav-toggle");
       if (!container.is(e.target) && container.has(e.target).length === 0) {
-        if ($("body").hasClass("mobile-nav-active")) {
-          $("body").removeClass("mobile-nav-active");
+        if ($(".js-append-target").hasClass("mobile-nav-active")) {
+          $(".js-append-target").removeClass("mobile-nav-active");
           $(".mobile-nav-toggle i").toggleClass(
             "icofont-navigation-menu icofont-close"
           );
