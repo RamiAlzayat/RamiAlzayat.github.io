@@ -1,1 +1,0 @@
-# alitqan-aleariq.com
