@@ -108,7 +108,12 @@ h6 {
 }
 
 #header.header-scrolled img {
-  max-width: 50px;
+  max-height: 50px;
+}
+
+.icofont-close {
+  position: absolute;
+  top: 14px;
 }
 
 #header .logo {
@@ -116,7 +121,7 @@ h6 {
   max-height: 100px;
   margin: 0;
   padding: 0;
-  border-radius: 15px;
+  border-radius: 8px;
   margin-top: 8px;
   margin-bottom: 8px;
   transition: all 0.5s;
@@ -306,6 +311,7 @@ h6 {
   line-height: 1;
   cursor: pointer;
   margin-bottom: 5px;
+  transition: all 0.5s;
 }
 
 .mobile-nav-toggle i {
@@ -316,7 +322,7 @@ h6 {
   position: fixed;
   top: 55px;
   right: 15px;
-  bottom: 150px;
+  bottom: 264px;
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
@@ -394,7 +400,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav {
-  opacity: 1;
+  opacity: 0.9;
   visibility: visible;
 }
 
@@ -524,11 +530,11 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 38px;
+    line-height: 48px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 25px;
     line-height: 24px;
     margin-bottom: 30px;
   }
@@ -1096,7 +1102,7 @@ section {
 }
 
 #footer img {
-  border-radius: 15px;
+  border-radius: 8px;
   margin-bottom: 15px;
   max-width: 165px;
 }
