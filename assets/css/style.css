@@ -23,6 +23,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-display: swap;
   font-family: "ReemKufi", sans-serif;
 }
 
@@ -91,6 +92,10 @@ h6 {
   transition: all 0.4s;
 }
 
+.back-to-top:hover {
+  text-decoration: unset;
+}
+
 .back-to-top i:hover {
   background: #daa520;
   color: #fff;
@@ -129,6 +134,19 @@ h6 {
 
 .nav-icon-logo {
   flex: auto;
+}
+
+.nav-icon-logo img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.nav-icon-logo span {
+  font-family: "ReemKufi", sans-serif;
+  color: #fff;
+  margin-left: 8px;
+  cursor: pointer;
 }
 
 @media (max-width: 640px) {
@@ -707,6 +725,10 @@ section {
   margin-bottom: 40px;
 }
 
+.counts .title p {
+  color: #fff;
+}
+
 .counts .title h3 {
   font-size: 36px;
   font-weight: 700;
@@ -824,6 +846,22 @@ section {
   color: #5b5b5b;
 }
 
+.ri-instagram-line {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ri-facebook-box-line {
+  color: #1877f2!important;
+}
+
+.ri-snapchat-line {
+  color: #FFFC00!important;
+}
+
 .contact .info .email .social-links {
   padding: 0 55px 0 0;
   margin-bottom: 0;
@@ -931,11 +969,4 @@ section {
 
 #footer .copyright {
   margin: 0 0 5px 0;
-}
-
-@font-face {
-  font-display: optional;
-  font-family: "ReemKufi";
-  src: url("../font/ReemKufi-Regular.ttf") format("truetype");
-  font-display: auto;
 }
