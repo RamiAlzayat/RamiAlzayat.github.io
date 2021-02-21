@@ -116,11 +116,6 @@ h6 {
   max-height: 50px;
 }
 
-.icofont-close {
-  position: absolute;
-  top: 14px;
-}
-
 #header .logo {
   color: #fff;
   max-height: 100px;
@@ -341,7 +336,6 @@ h6 {
   position: fixed;
   top: 55px;
   right: 15px;
-  bottom: 264px;
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
@@ -641,7 +635,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
   transition: ease-in-out 0.3s;
   color: #fff;
   float: right;
@@ -651,14 +644,13 @@ section {
   font-size: 28px;
 }
 
-.services .icon-box h4 {
+.services .icon-box h3 {
   font-weight: 700;
-  margin-bottom: 15px;
   font-size: 24px;
   text-align: center;
 }
 
-.services .icon-box h4 a {
+.services .icon-box h3 a {
   color: #282828;
   transition: ease-in-out 0.3s;
 }
@@ -667,6 +659,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  margin-top: 2rem;
 }
 
 .services .icon-box:hover {
@@ -676,31 +669,6 @@ section {
 
 .services .icon-box:hover h4 a {
   color: #af9b70;
-}
-
-.features .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 5px 0 10px 60px;
-}
-
-.features .icon-box i {
-  font-size: 48px;
-  float: left;
-  color: #af9b70;
-}
-
-.features .icon-box p {
-  font-size: 15px;
-  color: #333;
-  margin-left: 60px;
-}
-
-.features .image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 400px;
 }
 
 .counts {
@@ -895,6 +863,12 @@ section {
   display: inline-block;
   margin: 4px;
   padding: 0;
+  text-align: center;
+  width: 210px;
+}
+
+.contact .info .email .social-links a i {
+  margin-left: 8px;
 }
 
 .contact .info .email {
