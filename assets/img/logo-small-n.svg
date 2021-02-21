@@ -1,0 +1,24 @@
+<svg height="180" viewBox="0 0 185 180" width="185" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <filter id="a">
+    <feColorMatrix in="SourceGraphic" type="matrix"
+      values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0" />
+  </filter>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(0 -5)">
+      <g stroke="#fff">
+        <path d="m92.5 6.63188713-81.6872539 63.12291657 31.2138935 102.1747593h100.9467204l31.213894-102.1747593z" />
+        <path d="m92.5 6.63188713-81.6872539 63.12291657 31.2138935 102.1747593h100.9467204l31.213894-102.1747593z"
+          transform="matrix(0 -1 1 0 -5.5 190.5)" />
+        <path d="m92.5 5.63188713-81.6872539 63.12291657 31.2138935 102.1747593h100.9467204l31.213894-102.1747593z"
+          transform="matrix(0 1 -1 0 189.5 4.5)" />
+        <path d="m91.5.63188713-81.68725392 63.12291657 31.21389352 102.1747593h100.9467204l31.213894-102.1747593z"
+          transform="matrix(-1 0 0 -1 183 184)" />
+      </g>
+      <g fill="#fff" transform="translate(42 48)">
+        <text font-family="KannadaMN-Bold, Kannada MN" font-size="80" font-weight="bold">
+          <tspan x="20" y="77">N</tspan>
+        </text></g>
+    </g>
+  </g>
+</svg>
