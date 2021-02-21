@@ -790,12 +790,18 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
   overflow: hidden;
+  border-radius: 30px;
 }
 
 .portfolio .portfolio-item img {
   position: relative;
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 30px;
+}
+
+.portfolio .portfolio-item img:hover {
+  transform: scale(1.5);
 }
 
 .contact .info h4 {
@@ -847,7 +853,14 @@ section {
 }
 
 .ri-instagram-line {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   -webkit-background-clip: text;
   /* Also define standard property for compatibility */
   background-clip: text;
@@ -855,11 +868,11 @@ section {
 }
 
 .ri-facebook-box-line {
-  color: #1877f2!important;
+  color: #1877f2 !important;
 }
 
 .ri-snapchat-line {
-  color: #FFFC00!important;
+  color: #fffc00 !important;
 }
 
 .contact .info .email .social-links {
